@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 1343px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #08589f;
+}
+
+input {
+  border: none;
+}
+
+/* LOGO THE SIMPSON ---------------------------------------------------------------------------- */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+/* NAV MENU CON NOMBRE DE LA FLIA SIMPSON ---------------------------------------------------------------*/
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #0d7cc1;
+  font-family: "simpsonfont";
+  font-size: 22px;
+  padding: 0;
+  list-style: none;
+  /* margin: 0; revisar si le pongo o no el margin 0 ....................................................*/
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #fed420;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* PORTADA CON IMAGEN Y LOGIN --------------------------------------------------------------------*/
+
+.foto-portada {
+  width: 900px;
+  border-radius: 10px;
+}
+
+.portada {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #08589f;
+  padding: 20px;
+}
+
+.fieldset {
+  border-radius: 10px;
+  height: 459.38px;
+  background: rgb(20, 103, 173);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 103, 173, 1) 0%,
+    rgba(79, 180, 236, 1) 50%,
+    rgba(20, 103, 173, 1) 100%
+  );
+  border: none;
+  color: white;
+}
+
+.fas {
+  font-size: 60px;
+  color: #08589f;
+  padding: 30px;
+}
+
+.formwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formwrapper h2 {
+  font-family: "simpsonfont";
+  margin-top: 35px;
+}
+
+.boton {
+  margin-top: 15px;
+  border: #0d7cc1 solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: #0d7cc1;
+  background-color: #b4e3f7;
+}
+
+.boton:hover {
+  background-color: #0d7cc1;
+  color: white;
+}
+
+.pie {
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.pie a {
+  color: white;
+}
+
+.input {
+  background-color: #b4e3f7;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+}
+
+::placeholder {
+  color: #0d7cc1;
+}
+
+/* SECTION HOMERO Y MARGE ---------------------------------------------------------------------*/
+
+.homero-marge img {
+  height: 400px;
+}
+
+.homero-marge h2 {
+  font-family: "simpsonfont";
+  font-size: 25px;
+  color: #0d7cc1;
+  background-color: #fed420;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.homero-marge p {
+  padding: 10px;
+  text-align: center;
+}
+
+.homero-marge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 30px;
+}
+
+.Marge,
+.Homero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #08589f solid 2px;
+  border-radius: 8px;
+  margin: 5px;
+  padding-top: 10px;
+}
+
+/* SECTION HIJOS ----------------------------------------------------------------------------------*/
+
+.Hijos img {
+  height: 300px;
+}
+
+.Hijos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.Hijos h2 {
+  font-family: "simpsonfont";
+  font-size: 25px;
+  color: #0d7cc1;
+  background-color: #fed420;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.Hijos p {
+  padding: 10px;
+  text-align: center;
+}
+
+.Lisa,
+.Bart,
+.Maggie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #08589f solid 2px;
+  border-radius: 8px;
+  margin: 5px;
+  padding-top: 10px;
+}
+
+/* FORMULARIO DE REGISTRO -------------------------------------------------------------------------*/
+
+.registro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #b4e3f7;
+  border: #0d7cc1 solid 2px;
+  border-radius: 8px;
+}
+
+.registro-form,
+.registro-form2,
+.bartolome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #08589f solid 2px;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #0d7cc1;
+  height: 500px;
+}
+
+.registro-form h2 {
+  font-family: "simpsonfont";
+  font-size: 25px;
+  color: white;
+}
+
+.registro-form input {
+  border: #08589f 1px solid;
+  background-color: #b4e3f7;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.gender {
+  font-size: 14px;
+  color: white;
+}
+
+.registro-form2 p {
+  font-size: 14px;
+  color: white;
+}
+
+/* SECTION SOCIAL ----------------------------------------------------- */
+
+.social {
+  display: flex;
+  justify-content: center;
+  background-color: #0d7cc1;
+  border-radius: 8px;
+  border: #08589f solid 2px;
+  margin-top: 3px;
+}
+
+.social i {
+  font-size: 40px;
+  color: white;
+  margin: 5px;
+}
+
+.social i:hover {
+  color: #fed420;
+}
+
+/* FOOTER AL FIN ------------------------------------------------------------------ */
+
+footer {
+  background: rgb(20, 103, 173);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 103, 173, 1) 0%,
+    rgba(79, 180, 236, 1) 50%,
+    rgba(20, 103, 173, 1) 100%
+  );
+  border-radius: 8px;
+  border: #08589f solid 2px;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 3px;
+  text-align: center;
+  color: #08589f;
+  font-family: "simpsonfont";
+}

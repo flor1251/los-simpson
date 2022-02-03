@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon (4).ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css"
+    />
+    <title>The Simpsons</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HEADER CON IMAGEN DE LOGO Y NAV MENU -->
+      <header>
+        <div class="logo">
+          <img src="./assets/logo the simpson.jpg" alt="logo the simpsons" />
+        </div>
+        <nav class="nav">
+          <ul class="nav-menu">
+            <li><a href="#HomeroSimpson" class="nav-link">Homero</a></li>
+            <li><a href="#MargeSimpson" class="nav-link">Marge</a></li>
+            <li><a href="#BartSimpson" class="nav-link">Bart</a></li>
+            <li><a href="#LisaSimpson" class="nav-link">Lisa</a></li>
+            <li><a href="#MaggieSimpson" class="nav-link">Maggie</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- FOTO DE PORTADA CON LOGIN -->
+      <section class="portada">
+        <img
+          src="./assets/portada los simpson.jpg"
+          alt="portada familia simpsons"
+          class="foto-portada"
+        />
+        <form action="">
+          <fieldset class="fieldset">
+            <div class="formwrapper">
+              <h2>Ingresar</h2>
+
+              <div class="logo-login">
+                <i class="fas fa-user-circle"></i>
+              </div>
+              <div>
+                <input type="email" placeholder="Email" class="input" />
+              </div>
+              <div>
+                <input type="password" placeholder="Password" class="input" />
+              </div>
+              <div>
+                <input type="submit" value="Sign Up" class="boton" />
+              </div>
+
+              <div class="pie">
+                <p>¿Ya tienes una cuenta?</p>
+                <a href="#formularioderegistro">Registrate</a>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+      <!-- SECTION DE MARGE Y HOMERO -->
+      <section class="homero-marge">
+        <div class="Marge">
+          <a name="MargeSimpson"></a><img src="assets/marge.jpg" alt="Marge" /></a>
+          <h2>Marge Simpson</h2>
+          <p>
+            Marjorie Jacqueline Bouvier más conocida como Marge Simpson es un
+            personaje ficticio de la serie de televisión Los Simpson. Es la
+            esposa de Homer Simpson y madre de los tres hijos que ha tenido de
+            este matrimonio: Bart, Lisa y Maggie. Ella, junto al resto de su
+            familia. Su presencia ha demostrado ser fundamental para mantener la
+            familia unida.
+          </p>
+        </div>
+        <div class="Homero">
+          <a name="HomeroSimpson"><img src="assets/homero.jpg" alt="Homero" /></a>
+          <h2>Homero Simpson</h2>
+          <p>
+            Homer Jay Simpson es un personaje ficticio protagonista de la serie
+            de televisión Los Simpson. Es el padre de la familia protagonista y
+            uno de los personajes centrales y más importantes de la serie.
+          </p>
+        </div>
+      </section>
+      <!-- SECTION DE HIJOS SIMPSONS -->
+      <section class="Hijos">
+        <div class="Bart">
+          <a name="BartSimpson"><img src="assets/bart.jpg" alt="Bart" /></a>
+          <h2>Bart Simpson</h2>
+          <p>
+            Bartholomew «Bart» J. Simpson, es uno de los personajes ficticios
+            protagonistas de la serie de televisión Los Simpson. Bart tiene diez
+            años y es el primogénito y único hijo varón de Homer y Marge
+            Simpson. Es el hermano mayor de Lisa y Maggie.​
+          </p>
+        </div>
+
+        <div class="Lisa">
+          <a name="LisaSimpson"><img src="assets/lisa.jpg" alt="Lisa" /></a>
+          <h2>Lisa Simpson</h2>
+          <p>
+            Lisa Marie Simpson​ es un personaje de la serie de televisión de Los
+            Simpson. Es la hija mediana de Homer y Marge Simpson y hermana de
+            Bart y Maggie. Goza de notable protagonismo y complejidad en la
+            serie.
+          </p>
+        </div>
+
+        <div class="Maggie">
+          <a name="MaggieSimpson"><img src="assets/maggie.jpg" alt="Maggie" /></a>
+          <h2>Maggie Simpson</h2>
+          <p>
+            Maggie Simpson, es un personaje de la serie de televisión Los
+            Simpson. Es la tercera hija del matrimonio protagonista, Homer y
+            Marge Simpson, y la más joven de ellos. Sus hermanos mayores son
+            Bart y Lisa Simpson. Siempre se la ve succionando un chupete y
+            cuando camina, suele tropezar con el mono y cae de frente.
+          </p>
+        </div>
+      </section>
+      <!-- FORMULARIO DE REGISTRO CON PERSONAJE FAVORITO (falta completar el formulario con los input)-->
+      <!-- aplique un elemento a sin href como enlace interno para completar el formulario de registro -->
+      <section class="registro">        
+          
+           <div > 
+             <form action="" class="registro-form">
+             <a name="formularioderegistro"><h2>Registrate</h2></a>
+            <p>            
+                <input type="text" placeholder="Nombre"/>          
+            </p>
+            <p>            
+                <input type="text" placeholder="Apellido"/>            
+            </p>
+            <p class="gender">            
+              <input type="radio" name="gender" id="" />
+              <label for="">Hombre</label>
+              <input type="radio" name="gender" id="" />
+              <label for="">Mujer</label>
+              <input type="radio" name="gender" id="" />
+              <label for="">Otro</label>
+            </p>
+            <p>
+              <input type="email" name="" id="" placeholder="Email"/>
+            </p>
+            <p>
+              <input type="password" name="" id="" placeholder="Contraseña"/>
+            </p>
+            <p>
+              <input type="password" name="" id="" placeholder=" Confirmar Contraseña"/>
+            </p>
+
+            </form>
+        </div>
+        <div >
+          <form action="" class="registro-form2">
+          <p>
+            <label for="">Cual es tu personaje favorito. Por que? </label>
+          </p>
+          <p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </p>
+          <p>
+            <input type="checkbox" name="" id="" />
+            <label for="">Deseo recibir info sobre nuevas temporadas</label>
+          </p>
+          <p>
+            <input type="checkbox" name="" id="" />
+            <label for=""
+              >Lei y acepto las condiciones generales</label>
+          </p>
+          <p>
+            <input type="submit" value="Enviar" class="boton" />
+          </p>
+        </form>
+        </div>
+        
+      <div class="bartolome">
+        <img src="./assets/bartolome.png" alt="">
+      </div>
+      </section>
+      <!-- SECTION + FOOTER  -->
+      <section class="social">
+        <a href="http://www.facebook.com" target="-blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="http://www.instagram.com" target="-blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="http://www.twitter.com" target="-blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </section>
+      <footer>&copy Flor, Necochea, Bs. As. Argentina</footer>
+    </div>
+  </body>
+</html>
