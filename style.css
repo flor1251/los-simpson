@@ -76,7 +76,8 @@ input {
   justify-content: space-around;
   align-items: center;
   background-color: #08589f;
-  padding: 20px;
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .fieldset {
@@ -94,7 +95,7 @@ input {
 }
 
 .fas {
-  font-size: 60px;
+  font-size: 80px;
   color: #08589f;
   padding: 30px;
 }
@@ -311,9 +312,10 @@ footer {
   font-family: "simpsonfont";
 }
 
+/* BART FIJO EN EL COSTADO IZQUIERDO ---------------------------------------- */
 .bart-fijo {
   position: fixed;
   right: 0;
-  top: 0;
+  top: 20px;
   height: 160px;
 }
