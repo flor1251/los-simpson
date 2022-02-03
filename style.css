@@ -310,3 +310,10 @@ footer {
   color: #08589f;
   font-family: "simpsonfont";
 }
+
+.bart-fijo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 160px;
+}
