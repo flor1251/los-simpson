@@ -33,7 +33,7 @@ input {
 }
 
 .logo:hover {
-  transform: translateY(200px);
+  transform: rotate(360deg);
 }
 
 
