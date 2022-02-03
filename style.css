@@ -29,7 +29,14 @@ input {
   display: flex;
   justify-content: center;
   height: 200px;
+  transition: all 1s ease-in-out
 }
+
+.logo:hover {
+  transform: translateY(200px);
+}
+
+
 
 /* NAV MENU CON NOMBRE DE LA FLIA SIMPSON ---------------------------------------------------------------*/
 
