@@ -30,14 +30,12 @@ input {
   display: flex;
   justify-content: center;
   height: 200px;
-  transition: all 1s ease-in-out
+  transition: all 1s ease-in-out;
 }
 
 .logo:hover {
   transform: rotate(360deg);
 }
-
-
 
 /* NAV MENU CON NOMBRE DE LA FLIA SIMPSON ---------------------------------------------------------------*/
 
@@ -318,4 +316,15 @@ footer {
   right: 0;
   top: 20px;
   height: 160px;
+}
+
+/* media query ------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 130px;
+  }
+  .nav-menu {
+    height: 60px;
+  }
 }
