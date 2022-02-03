@@ -320,11 +320,3 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 768px) {
-  .logo {
-    height: 130px;
-  }
-  .nav-menu {
-    height: 60px;
-  }
-}
