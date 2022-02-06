@@ -2,7 +2,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'segoe-ui-emoji-normal', sans-serif;
   margin: 0 auto;
   padding: 0;
 }
@@ -48,9 +48,10 @@ input {
   font-size: 22px;
   padding: 0;
   list-style: none;
-  width: 100%;
-  margin-top: 20px;
+  
+  margin: 20px 5px;
   border-radius: 8px;
+  
   /* margin: 0; revisar si le pongo o no el margin 0 ....................................................*/
 }
 
@@ -78,6 +79,7 @@ input {
   background-color: #08589f;
   border-radius: 8px;
   padding: 8px;
+  margin: 5px;
 }
 
 .fieldset {
@@ -322,12 +324,14 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
-/* @media screen and (max-width: 320px) {
-  .logo {
+@media screen and (max-width: 320px) {
+  .foto-portada {
+    width: 150px;
+    
+  }
+  .fieldset {
+    
     height: 100px;
-    transition: none;
+   
   }
-  .logo:hover {
-    transform: none;
-  }
-} */
+}
