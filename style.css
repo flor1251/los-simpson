@@ -322,7 +322,7 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .logo {
     height: 100px;
     transition: none;
@@ -330,4 +330,4 @@ footer {
   .logo:hover {
     transform: none;
   }
-}
+} */
