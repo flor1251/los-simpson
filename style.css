@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 
 body {
   box-sizing: border-box;
@@ -48,7 +48,6 @@ input {
   font-size: 22px;
   padding: 0;
   list-style: none;
-  
   margin: 20px 5px;
   border-radius: 8px;
   
@@ -324,14 +323,3 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 320px) {
-  .foto-portada {
-    width: 150px;
-    
-  }
-  .fieldset {
-    
-    height: 100px;
-   
-  }
-}
