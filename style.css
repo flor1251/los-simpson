@@ -256,6 +256,7 @@ input {
   font-family: "simpsonfont";
   font-size: 25px;
   color: white;
+  text-align: center;
 }
 
 .registro-form input {
@@ -273,6 +274,7 @@ input {
 .registro-form2 p {
   font-size: 14px;
   color: white;
+  text-align: center;
 }
 
 /* SECTION SOCIAL ----------------------------------------------------- */
@@ -357,6 +359,7 @@ footer {
   .form-wrapper h2 {
     margin-top: 3px;
     font-size: 15px;
+    
   }
 
   .fas {
