@@ -325,7 +325,7 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .nav-menu {
     flex-wrap: wrap;
   }
@@ -345,4 +345,4 @@ footer {
   .formwrapper {
     width: 100%;
   }
-}
+} */
