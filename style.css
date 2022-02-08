@@ -1,11 +1,8 @@
-
-
 body {
   box-sizing: border-box;
-  font-family: 'segoe-ui-emoji-normal', sans-serif;
+  font-family: "segoe-ui-emoji-normal", sans-serif;
   margin: 0 auto;
   padding: 0;
-  width: 1343px;
 }
 
 *,
@@ -23,9 +20,8 @@ input {
   border: none;
 }
 
-/* LOGO THE SIMPSON ---------------------------------------------------------------------------- */
-
-.logo {
+/* SECTION LOGO LOS SIMPSONS Y NAVEGADOR MENU ----------------------------------------------- */
+.logo-simpsons {
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -33,30 +29,30 @@ input {
   transition: all 1s ease-in-out;
 }
 
-.logo:hover {
-  transform: rotate(360deg);
+.logo-simpsons:hover {
+  transform: rotate(25deg);
 }
-
-/* NAV MENU CON NOMBRE DE LA FLIA SIMPSON ---------------------------------------------------------------*/
 
 .nav-menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
-  background-color: #0d7cc1;
   font-family: "simpsonfont";
   font-size: 22px;
   padding: 0;
   list-style: none;
   margin: 20px 5px;
   border-radius: 8px;
-  
-  /* margin: 0; revisar si le pongo o no el margin 0 ....................................................*/
+  background-color: #0d7cc1;
+}
+
+.nav-menu-li {
+  background-color: #0d7cc1;
+  padding: 20px;
 }
 
 .nav-link {
-  color: white !important;
+  color: white;
 }
 
 .nav-link:hover {
@@ -65,12 +61,7 @@ input {
   border-radius: 8px;
 }
 
-/* PORTADA CON IMAGEN Y LOGIN --------------------------------------------------------------------*/
-
-.foto-portada {
-  width: 900px;
-  border-radius: 10px;
-}
+/* SECTION DE PORTADA CON LOGIN ----------------------------- */
 
 .portada {
   display: flex;
@@ -82,9 +73,25 @@ input {
   margin: 5px;
 }
 
-.fieldset {
+.foto-portada {
+  width: 70%;
   border-radius: 10px;
-  height: 459.38px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.foto-portada img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
   background: rgb(20, 103, 173);
   background: linear-gradient(
     0deg,
@@ -96,21 +103,15 @@ input {
   color: white;
 }
 
+.form-wrapper h2 {
+  font-family: "simpsonfont";
+  margin-top: 35px;
+}
+
 .fas {
   font-size: 80px;
   color: #08589f;
   padding: 30px;
-}
-
-.formwrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.formwrapper h2 {
-  font-family: "simpsonfont";
-  margin-top: 35px;
 }
 
 .boton {
@@ -129,7 +130,7 @@ input {
 }
 
 .pie {
-  margin-top: 40px;
+  margin: 30px;
   font-size: 12px;
   text-align: center;
 }
@@ -142,7 +143,7 @@ input {
   background-color: #b4e3f7;
   border-radius: 5px;
   padding: 5px;
-  margin: 5px;
+  margin: 5px 15px;
 }
 
 ::placeholder {
@@ -324,3 +325,24 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 320px) {
+  .nav-menu {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu-li {
+    width: 100%;
+  }
+
+  .portada {
+    flex-wrap: wrap;
+  }
+
+  .foto-portada {
+    width: 100%;
+  }
+
+  .formwrapper {
+    width: 100%;
+  }
+}
