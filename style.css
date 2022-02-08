@@ -416,7 +416,7 @@ footer {
 
   .bartolome {
     height: 300px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .bartolome img {
     height: 200px;
@@ -429,4 +429,7 @@ footer {
     margin-top: 5px;
   }
 
+  .bart-fijo {
+    height: 120px;
+  }
 }
