@@ -231,6 +231,7 @@ input {
 .registro {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
   grid-gap: 10px;
   background-color: #b4e3f7;
   border: #0d7cc1 solid 2px;
@@ -249,6 +250,7 @@ input {
   margin: 5px;
   background-color: #0d7cc1;
   height: 500px;
+  
 }
 
 .registro-form h2 {
@@ -274,6 +276,9 @@ input {
   color: white;
 }
 
+
+
+
 /* SECTION SOCIAL ----------------------------------------------------- */
 
 .social {
@@ -295,6 +300,8 @@ input {
   color: #fed420;
 }
 
+
+
 /* FOOTER AL FIN ------------------------------------------------------------------ */
 
 footer {
@@ -315,7 +322,7 @@ footer {
   font-family: "simpsonfont";
 }
 
-/* BART FIJO EN EL COSTADO IZQUIERDO ---------------------------------------- */
+/* BART FIJO EN EL COSTADO DERECHO ---------------------------------------- */
 .bart-fijo {
   position: fixed;
   right: 0;
