@@ -344,12 +344,10 @@ footer {
 @media screen and (max-width: 500px) {
   .logo-simpsons {
     height: 100px;
-    transition: none;
+   
   }
 
-  .logo-simpsons:hover {
-    transform: none;
-  }
+  
 
   .nav-menu {
     flex-wrap: wrap;
