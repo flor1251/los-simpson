@@ -332,6 +332,15 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
+@media screen and (max-width: 768px) {
+  .registro {
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: none;
+    margin-top: 5px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .logo-simpsons {
     height: 100px;
