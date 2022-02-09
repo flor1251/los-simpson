@@ -239,7 +239,8 @@ input {
 }
 
 .registro-form,
-.registro-form2, .bartolome {
+.registro-form2,
+.bartolome {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,9 +279,6 @@ input {
   color: white;
   text-align: center;
 }
-
-
-
 
 /* SECTION SOCIAL ----------------------------------------------------- */
 
@@ -333,7 +331,7 @@ footer {
 
 /* media query ------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .registro {
     grid-template-columns: 1fr;
     grid-gap: none;
