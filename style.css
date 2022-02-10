@@ -21,12 +21,20 @@ input {
 }
 
 /* SECTION LOGO LOS SIMPSONS Y NAVEGADOR MENU ----------------------------------------------- */
+
 .logo-simpsons {
-  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 10px;
   transition: all 1s ease-in-out;
-  height: 200px;
+}
+
+.logo-simpsons img {
+  width: 30%;
 }
 
 .logo-simpsons:hover {
@@ -337,20 +345,11 @@ footer {
     grid-gap: none;
     margin-top: 5px;
   }
-  .logo-simpsons {
-    height: 100px;
-  }
+ 
 }
 
 @media screen and (max-width: 500px) {
-  .logo-simpsons {
-    height: 100px;
-    transition: none;
-  }
-
-  .logo-simpsons:hover {
-    transform: none;
-  }
+  
 
   .nav-menu {
     flex-wrap: wrap;
