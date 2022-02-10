@@ -26,12 +26,7 @@ input {
   display: flex;
   justify-content: center;
   transition: all 1s ease-in-out;
-  background-size: cover;
-  width: 100%;
-}
-
-.logo-simpsons img {
-  width: 35%;
+  height: 200px;
 }
 
 .logo-simpsons:hover {
@@ -341,6 +336,9 @@ footer {
     grid-template-columns: 1fr;
     grid-gap: none;
     margin-top: 5px;
+  }
+  .logo-simpsons {
+    height: 100px;
   }
 }
 
