@@ -25,8 +25,13 @@ input {
   margin-top: 10px;
   display: flex;
   justify-content: center;
-  height: 200px;
   transition: all 1s ease-in-out;
+  background-size: cover;
+  width: 100%;
+}
+
+.logo-simpsons img {
+  width: 35%;
 }
 
 .logo-simpsons:hover {
